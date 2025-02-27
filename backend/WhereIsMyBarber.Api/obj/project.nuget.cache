@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "Td35CzdKCM8=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\joaos\\Dev\\C#_Projects\\WhereIsMyBarber\\backend\\WhereIsMyBarber.Api\\WhereIsMyBarber.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\joaos\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
+    "C:\\Users\\joaos\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.2\\microsoft.aspnetcore.openapi.9.0.2.nupkg.sha512",
+    "C:\\Users\\joaos\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.2\\microsoft.extensions.dependencyinjection.9.0.2.nupkg.sha512",
+    "C:\\Users\\joaos\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.2\\microsoft.extensions.dependencyinjection.abstractions.9.0.2.nupkg.sha512",
+    "C:\\Users\\joaos\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
