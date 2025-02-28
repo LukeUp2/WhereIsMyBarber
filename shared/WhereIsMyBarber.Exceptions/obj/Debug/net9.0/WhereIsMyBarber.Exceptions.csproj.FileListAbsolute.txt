@@ -1,0 +1,12 @@
+C:\Users\joaos\Dev\C#_Projects\WhereIsMyBarber\shared\WhereIsMyBarber.Exceptions\bin\Debug\net9.0\WhereIsMyBarber.Exceptions.deps.json
+C:\Users\joaos\Dev\C#_Projects\WhereIsMyBarber\shared\WhereIsMyBarber.Exceptions\bin\Debug\net9.0\WhereIsMyBarber.Exceptions.dll
+C:\Users\joaos\Dev\C#_Projects\WhereIsMyBarber\shared\WhereIsMyBarber.Exceptions\bin\Debug\net9.0\WhereIsMyBarber.Exceptions.pdb
+C:\Users\joaos\Dev\C#_Projects\WhereIsMyBarber\shared\WhereIsMyBarber.Exceptions\obj\Debug\net9.0\WhereIsMyBarber.Exceptions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaos\Dev\C#_Projects\WhereIsMyBarber\shared\WhereIsMyBarber.Exceptions\obj\Debug\net9.0\WhereIsMyBarber.Exceptions.AssemblyInfoInputs.cache
+C:\Users\joaos\Dev\C#_Projects\WhereIsMyBarber\shared\WhereIsMyBarber.Exceptions\obj\Debug\net9.0\WhereIsMyBarber.Exceptions.AssemblyInfo.cs
+C:\Users\joaos\Dev\C#_Projects\WhereIsMyBarber\shared\WhereIsMyBarber.Exceptions\obj\Debug\net9.0\WhereIsMyBarber.Exceptions.csproj.CoreCompileInputs.cache
+C:\Users\joaos\Dev\C#_Projects\WhereIsMyBarber\shared\WhereIsMyBarber.Exceptions\obj\Debug\net9.0\WhereIsMyBarber.Exceptions.sourcelink.json
+C:\Users\joaos\Dev\C#_Projects\WhereIsMyBarber\shared\WhereIsMyBarber.Exceptions\obj\Debug\net9.0\WhereIsMyBarber.Exceptions.dll
+C:\Users\joaos\Dev\C#_Projects\WhereIsMyBarber\shared\WhereIsMyBarber.Exceptions\obj\Debug\net9.0\refint\WhereIsMyBarber.Exceptions.dll
+C:\Users\joaos\Dev\C#_Projects\WhereIsMyBarber\shared\WhereIsMyBarber.Exceptions\obj\Debug\net9.0\WhereIsMyBarber.Exceptions.pdb
+C:\Users\joaos\Dev\C#_Projects\WhereIsMyBarber\shared\WhereIsMyBarber.Exceptions\obj\Debug\net9.0\ref\WhereIsMyBarber.Exceptions.dll

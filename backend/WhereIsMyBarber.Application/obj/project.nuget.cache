@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "Rijaj9Z+xWc=",
+  "dgSpecHash": "hfx7JMfC/do=",
   "success": true,
   "projectFilePath": "C:\\Users\\joaos\\Dev\\C#_Projects\\WhereIsMyBarber\\backend\\WhereIsMyBarber.Application\\WhereIsMyBarber.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\joaos\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\joaos\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
     "C:\\Users\\joaos\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.2\\microsoft.extensions.dependencyinjection.9.0.2.nupkg.sha512",
-    "C:\\Users\\joaos\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.2\\microsoft.extensions.dependencyinjection.abstractions.9.0.2.nupkg.sha512"
+    "C:\\Users\\joaos\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.2\\microsoft.extensions.dependencyinjection.abstractions.9.0.2.nupkg.sha512",
+    "C:\\Users\\joaos\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "C:\\Users\\joaos\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }

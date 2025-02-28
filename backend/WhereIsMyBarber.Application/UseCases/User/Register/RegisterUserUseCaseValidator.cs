@@ -16,7 +16,7 @@ namespace WhereIsMyBarber.Application.UseCases.User.Register
             RuleFor(u => u.Phone).NotEmpty().WithMessage("Forneça um telefone");
             RuleFor(u => u.Name).NotEmpty().WithMessage("Forneça um nome");
             RuleFor(u => u.Password).NotEmpty().WithMessage("Forneça uma senha");
-            RuleFor(u => u.Password).Length(6).WithMessage("A senha deve conter no minimo 6 caracteres");
+            RuleFor(u => u.Password.Length).GreaterThanOrEqualTo(6).WithMessage("A senha deve conter no minimo 6 caracteres");
         }
     }
 }

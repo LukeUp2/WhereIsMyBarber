@@ -1,0 +1,12 @@
+C:\Users\joaos\Dev\C#_Projects\WhereIsMyBarber\shared\WhereIsMyBarber.Communication\bin\Debug\net9.0\WhereIsMyBarber.Communication.deps.json
+C:\Users\joaos\Dev\C#_Projects\WhereIsMyBarber\shared\WhereIsMyBarber.Communication\bin\Debug\net9.0\WhereIsMyBarber.Communication.dll
+C:\Users\joaos\Dev\C#_Projects\WhereIsMyBarber\shared\WhereIsMyBarber.Communication\bin\Debug\net9.0\WhereIsMyBarber.Communication.pdb
+C:\Users\joaos\Dev\C#_Projects\WhereIsMyBarber\shared\WhereIsMyBarber.Communication\obj\Debug\net9.0\WhereIsMyBarber.Communication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaos\Dev\C#_Projects\WhereIsMyBarber\shared\WhereIsMyBarber.Communication\obj\Debug\net9.0\WhereIsMyBarber.Communication.AssemblyInfoInputs.cache
+C:\Users\joaos\Dev\C#_Projects\WhereIsMyBarber\shared\WhereIsMyBarber.Communication\obj\Debug\net9.0\WhereIsMyBarber.Communication.AssemblyInfo.cs
+C:\Users\joaos\Dev\C#_Projects\WhereIsMyBarber\shared\WhereIsMyBarber.Communication\obj\Debug\net9.0\WhereIsMyBarber.Communication.csproj.CoreCompileInputs.cache
+C:\Users\joaos\Dev\C#_Projects\WhereIsMyBarber\shared\WhereIsMyBarber.Communication\obj\Debug\net9.0\WhereIsMyBarber.Communication.sourcelink.json
+C:\Users\joaos\Dev\C#_Projects\WhereIsMyBarber\shared\WhereIsMyBarber.Communication\obj\Debug\net9.0\WhereIsMyBarber.Communication.dll
+C:\Users\joaos\Dev\C#_Projects\WhereIsMyBarber\shared\WhereIsMyBarber.Communication\obj\Debug\net9.0\refint\WhereIsMyBarber.Communication.dll
+C:\Users\joaos\Dev\C#_Projects\WhereIsMyBarber\shared\WhereIsMyBarber.Communication\obj\Debug\net9.0\WhereIsMyBarber.Communication.pdb
+C:\Users\joaos\Dev\C#_Projects\WhereIsMyBarber\shared\WhereIsMyBarber.Communication\obj\Debug\net9.0\ref\WhereIsMyBarber.Communication.dll

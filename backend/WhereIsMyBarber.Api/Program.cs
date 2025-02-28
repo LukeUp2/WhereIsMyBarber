@@ -1,4 +1,8 @@
+using WhereIsMyBarber.Api.Filters;
 using WhereIsMyBarber.Application;
+using WhereIsMyBarber.Infra;
+using WhereIsMyBarber.Infra.Extensions;
+using WhereIsMyBarber.Infra.Migrations;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,7 +11,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddOpenApi();
 builder.Services.AddControllers();
 
+builder.Services.AddMvc(opt => opt.Filters.Add<ExceptionFilter>());
+
 builder.Services.AddApplication();
+builder.Services.AddInfra(builder.Configuration);
 
 builder.Services.AddRouting(opt => opt.LowercaseUrls = true);
 
@@ -21,4 +28,11 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.MapControllers();
+MigrateDatabase();
 app.Run();
+
+void MigrateDatabase()
+{
+    var serviceScope = app.Services.GetRequiredService<IServiceScopeFactory>().CreateScope();
+    DatabaseMigration.Migrate(builder.Configuration.ConnectionString(), serviceScope.ServiceProvider);
+}

@@ -1,0 +1,12 @@
+C:\Users\joaos\Dev\C#_Projects\WhereIsMyBarber\backend\WhereIsMyBarber.Domain\bin\Debug\net9.0\WhereIsMyBarber.Domain.deps.json
+C:\Users\joaos\Dev\C#_Projects\WhereIsMyBarber\backend\WhereIsMyBarber.Domain\bin\Debug\net9.0\WhereIsMyBarber.Domain.dll
+C:\Users\joaos\Dev\C#_Projects\WhereIsMyBarber\backend\WhereIsMyBarber.Domain\bin\Debug\net9.0\WhereIsMyBarber.Domain.pdb
+C:\Users\joaos\Dev\C#_Projects\WhereIsMyBarber\backend\WhereIsMyBarber.Domain\obj\Debug\net9.0\WhereIsMyBarber.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaos\Dev\C#_Projects\WhereIsMyBarber\backend\WhereIsMyBarber.Domain\obj\Debug\net9.0\WhereIsMyBarber.Domain.AssemblyInfoInputs.cache
+C:\Users\joaos\Dev\C#_Projects\WhereIsMyBarber\backend\WhereIsMyBarber.Domain\obj\Debug\net9.0\WhereIsMyBarber.Domain.AssemblyInfo.cs
+C:\Users\joaos\Dev\C#_Projects\WhereIsMyBarber\backend\WhereIsMyBarber.Domain\obj\Debug\net9.0\WhereIsMyBarber.Domain.csproj.CoreCompileInputs.cache
+C:\Users\joaos\Dev\C#_Projects\WhereIsMyBarber\backend\WhereIsMyBarber.Domain\obj\Debug\net9.0\WhereIsMyBarber.Domain.sourcelink.json
+C:\Users\joaos\Dev\C#_Projects\WhereIsMyBarber\backend\WhereIsMyBarber.Domain\obj\Debug\net9.0\WhereIsMyBarber.Domain.dll
+C:\Users\joaos\Dev\C#_Projects\WhereIsMyBarber\backend\WhereIsMyBarber.Domain\obj\Debug\net9.0\refint\WhereIsMyBarber.Domain.dll
+C:\Users\joaos\Dev\C#_Projects\WhereIsMyBarber\backend\WhereIsMyBarber.Domain\obj\Debug\net9.0\WhereIsMyBarber.Domain.pdb
+C:\Users\joaos\Dev\C#_Projects\WhereIsMyBarber\backend\WhereIsMyBarber.Domain\obj\Debug\net9.0\ref\WhereIsMyBarber.Domain.dll

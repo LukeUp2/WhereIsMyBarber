@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "ZT70W9imw3EmRHKl/SCzgKxiX3Uvd2aEQVD3aXSwZWg=",
+  "Source": "WhereIsMyBarber.Api",
+  "BasePath": "_content/WhereIsMyBarber.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -10,7 +10,7 @@ namespace WhereIsMyBarber.Api.Controllers
     public class UserController : ControllerBase
     {
         [HttpPost]
-        public async Task<IActionResult> Register(RequestRegisterUser request, [FromServices] IRegisterUserUseCase useCase)
+        public async Task<IActionResult> Register([FromBody] RequestRegisterUser request, [FromServices] IRegisterUserUseCase useCase)
         {
             var result = await useCase.Execute(request);
             return Created(string.Empty, result);
