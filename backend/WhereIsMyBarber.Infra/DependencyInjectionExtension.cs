@@ -4,9 +4,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using WhereIsMyBarber.Domain.Repositories;
+using WhereIsMyBarber.Domain.Security.Cryptography;
 using WhereIsMyBarber.Infra.DataAccess;
 using WhereIsMyBarber.Infra.DataAccess.Repositories;
 using WhereIsMyBarber.Infra.Extensions;
+using WhereIsMyBarber.Infra.Security.Cryptography;
 
 namespace WhereIsMyBarber.Infra
 {
@@ -17,7 +19,7 @@ namespace WhereIsMyBarber.Infra
             AddRepositories(services);
             AddUnitOfWork(services);
             AddDbContext(services, configuration);
-
+            AddPasswordEncrypter(services);
             AddFluentMigrator(services, configuration);
         }
 
@@ -29,6 +31,11 @@ namespace WhereIsMyBarber.Infra
         private static void AddUnitOfWork(IServiceCollection services)
         {
             services.AddScoped<IUnitOfWork, UnitOfWork>();
+        }
+
+        private static void AddPasswordEncrypter(IServiceCollection services)
+        {
+            services.AddScoped<IPasswordEncrypter, Sha512Encrypter>();
         }
 
         private static void AddDbContext(IServiceCollection services, IConfiguration configuration)

@@ -17,7 +17,8 @@ namespace WhereIsMyBarber.Infra.Migrations.Versions
                 .WithColumn("Email").AsString(255).NotNullable()
                 .WithColumn("HashedPassword").AsString(255).NotNullable()
                 .WithColumn("Phone").AsString(255).NotNullable()
-                .WithColumn("Type").AsInt32().NotNullable();
+                .WithColumn("Type").AsInt32().NotNullable()
+                .WithColumn("UserIdentifier").AsGuid().NotNullable();
         }
     }
 }

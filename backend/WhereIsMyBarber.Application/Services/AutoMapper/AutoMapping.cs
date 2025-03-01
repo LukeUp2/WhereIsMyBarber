@@ -19,7 +19,8 @@ namespace WhereIsMyBarber.Application.Services.AutoMapper
         private void RequestToDomain()
         {
             CreateMap<RequestRegisterUser, User>()
-                .ForMember(dest => dest.HashedPassword, opt => opt.Ignore());
+                .ForMember(dest => dest.HashedPassword, opt => opt.Ignore())
+                .ForMember(dest => dest.UserIdentifier, opt => opt.Ignore());
         }
 
         private void DomainToResponse()

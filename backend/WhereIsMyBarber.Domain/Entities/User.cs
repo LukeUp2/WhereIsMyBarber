@@ -9,6 +9,7 @@ namespace WhereIsMyBarber.Domain.Entities
         public string Email { get; set; } = "";
         public string HashedPassword { get; set; } = "";
         public string Phone { get; set; } = "";
+        public Guid UserIdentifier { get; set; }
         public UserType Type { get; set; }
     }
 }
