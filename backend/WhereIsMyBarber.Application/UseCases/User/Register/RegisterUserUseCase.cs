@@ -1,8 +1,5 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using AutoMapper;
+using FluentValidation.Results;
 using WhereIsMyBarber.Communication.Requests;
 using WhereIsMyBarber.Communication.Responses;
 using WhereIsMyBarber.Domain.Entities;
@@ -29,9 +26,8 @@ namespace WhereIsMyBarber.Application.UseCases.User.Register
 
         public async Task<ResponseRegisteredUserJson> Execute(RequestRegisterUser request)
         {
-            Validate(request);
+            await Validate(request);
 
-            //Fazer a criptografia da senha
             var user = _mapper.Map<Domain.Entities.User>(request);
             user.HashedPassword = _passwordEncrypter.Encrypt(request.Password);
             user.UserIdentifier = Guid.NewGuid();
@@ -49,10 +45,17 @@ namespace WhereIsMyBarber.Application.UseCases.User.Register
             };
         }
 
-        private static void Validate(RequestRegisterUser request)
+        private async Task Validate(RequestRegisterUser request)
         {
             var validator = new RegisterUserUseCaseValidator();
             var result = validator.Validate(request);
+
+            var userWithEmailAlreadyExists = await _userRepository.UserWithEmailAlreadyExists(request.Email);
+
+            if (userWithEmailAlreadyExists)
+            {
+                result.Errors.Add(new ValidationFailure(string.Empty, "Email já cadastrado"));
+            }
 
             if (result.IsValid.IsFalse())
             {

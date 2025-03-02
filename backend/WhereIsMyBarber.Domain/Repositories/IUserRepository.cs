@@ -9,5 +9,7 @@ namespace WhereIsMyBarber.Domain.Repositories
     public interface IUserRepository
     {
         Task Add(User user);
+
+        Task<bool> UserWithEmailAlreadyExists(string email);
     }
 }
