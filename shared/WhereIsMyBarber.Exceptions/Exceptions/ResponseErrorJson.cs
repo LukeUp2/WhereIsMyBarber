@@ -16,5 +16,10 @@ namespace WhereIsMyBarber.Exceptions.Exceptions
                 error
             };
         }
+
+        public ResponseErrorJson(IList<string> errors)
+        {
+            Errors = errors;
+        }
     }
 }

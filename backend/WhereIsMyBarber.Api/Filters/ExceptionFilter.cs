@@ -13,7 +13,24 @@ namespace WhereIsMyBarber.Api.Filters
     {
         public void OnException(ExceptionContext context)
         {
-            ThrowUnknowException(context);
+            if (context.Exception is WhereIsMyBarberException)
+            {
+                HandleProjectException(context);
+            }
+            else
+            {
+                ThrowUnknowException(context);
+            }
+        }
+
+        private static void HandleProjectException(ExceptionContext context)
+        {
+            if (context.Exception is ErrorOnValidationException)
+            {
+                var exception = context.Exception as ErrorOnValidationException;
+                context.HttpContext.Response.StatusCode = (int)HttpStatusCode.BadRequest;
+                context.Result = new BadRequestObjectResult(new ResponseErrorJson(exception!.errors));
+            }
         }
 
         private static void ThrowUnknowException(ExceptionContext context)

@@ -6,6 +6,7 @@ using WhereIsMyBarber.Domain.Entities;
 using WhereIsMyBarber.Domain.Extensions;
 using WhereIsMyBarber.Domain.Repositories;
 using WhereIsMyBarber.Domain.Security.Cryptography;
+using WhereIsMyBarber.Exceptions.Exceptions;
 
 namespace WhereIsMyBarber.Application.UseCases.User.Register
 {
@@ -60,7 +61,7 @@ namespace WhereIsMyBarber.Application.UseCases.User.Register
             if (result.IsValid.IsFalse())
             {
                 //Criar exceptions
-                throw new Exception(result.Errors.First().ErrorMessage);
+                throw new ErrorOnValidationException(result.Errors.Select(x => x.ErrorMessage).ToList());
             }
         }
     }
