@@ -24,7 +24,12 @@ namespace WhereIsMyBarber.Infra.DataAccess.Repositories
 
         public async Task<bool> UserWithEmailAlreadyExists(string email)
         {
-            return await _context.Users.AnyAsync(u => u.Email == email);
+            return await _context.Users.AsNoTracking().AnyAsync(u => u.Email == email);
+        }
+
+        public async Task<User?> GetUserWithEmailAndHashedPassword(string email, string hashedPassword)
+        {
+            return await _context.Users.Where(u => u.Email == email && u.HashedPassword == hashedPassword).FirstOrDefaultAsync();
         }
     }
 }

@@ -9,7 +9,7 @@ namespace WhereIsMyBarber.Exceptions.Exceptions
     {
         public readonly IList<string> errors;
 
-        public ErrorOnValidationException(IList<string> errorsMessages)
+        public ErrorOnValidationException(IList<string> errorsMessages) : base(string.Empty)
         {
             errors = errorsMessages;
         }

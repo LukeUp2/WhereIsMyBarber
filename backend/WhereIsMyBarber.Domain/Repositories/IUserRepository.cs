@@ -11,5 +11,7 @@ namespace WhereIsMyBarber.Domain.Repositories
         Task Add(User user);
 
         Task<bool> UserWithEmailAlreadyExists(string email);
+
+        Task<User?> GetUserWithEmailAndHashedPassword(string email, string hashedPassword);
     }
 }

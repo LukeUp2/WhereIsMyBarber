@@ -60,7 +60,6 @@ namespace WhereIsMyBarber.Application.UseCases.User.Register
 
             if (result.IsValid.IsFalse())
             {
-                //Criar exceptions
                 throw new ErrorOnValidationException(result.Errors.Select(x => x.ErrorMessage).ToList());
             }
         }

@@ -1,5 +1,6 @@
 using Microsoft.Extensions.DependencyInjection;
 using WhereIsMyBarber.Application.Services.AutoMapper;
+using WhereIsMyBarber.Application.UseCases.Login;
 using WhereIsMyBarber.Application.UseCases.User.Register;
 
 namespace WhereIsMyBarber.Application
@@ -15,6 +16,7 @@ namespace WhereIsMyBarber.Application
         private static void AddUseCases(IServiceCollection services)
         {
             services.AddScoped<IRegisterUserUseCase, RegisterUserUseCase>();
+            services.AddScoped<IDoLoginUseCase, DoLoginUseCase>();
         }
 
         private static void AddAutoMapper(IServiceCollection services)

@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 
 namespace WhereIsMyBarber.Exceptions.Exceptions
 {
-    public class WhereIsMyBarberException : Exception
+    public class InvalidLoginException : WhereIsMyBarberException
     {
-        public WhereIsMyBarberException(string message) : base(message)
+        public InvalidLoginException() : base("Email ou senha inválidos")
         {
 
         }
